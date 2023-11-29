@@ -23,7 +23,7 @@ h3{padding: 0 auto;
 .footer__box {
 	padding: 0 400px;
 	display: flex;
-background-color: rgba(57, 145, 156, 0.893);
+background-color: rgb(4, 138, 193);
 	justify-content: space-between;
 	margin: -8px;
 }
@@ -40,4 +40,14 @@ background-color: rgba(57, 145, 156, 0.893);
 
 	font-size: 100%;
 	text-decoration: underline;
+}
+.img__one {margin: 0 30px 0 0;
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(/HOME/img/icons8-телефон-25.png) no-repeat 0 0px; /* Параметры фона */
+    padding-left: 30px; /* Смещаем текст вправо */ 
+}
+.img__two {margin: 0 30px 0 0;
+	list-style: none; /* Убираем исходные маркеры */
+    background: url(/HOME/img/icons8-сообщение-20.png) no-repeat 0 0px; /* Параметры фона */
+    padding-left: 30px; /* Смещаем текст вправо */ 
 }
