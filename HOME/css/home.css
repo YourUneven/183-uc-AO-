@@ -1,3 +1,35 @@
+
+.img{
+	background: url(/HOME/img/11.jpg) fixed;
+	height: 800px ;
+	width: 100%;
+
+}
+.img2{
+	background:url(/HOME/img/pngwing.com.png) top no-repeat;
+	height: 1500px;
+	width: 100%;
+
+}
+nav{
+	/* margin: -300px 0 0 0; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header , nav {
 	height: 500px;
 }
@@ -21,6 +53,8 @@ h3{padding: 0 auto;
 	color: rgba(101, 101, 152, 0.504);
 }
 .footer__box {
+	position: absolute;
+	bottom: -100%;
 	padding: 0 400px;
 	display: flex;
 background-color: rgb(4, 138, 193);
