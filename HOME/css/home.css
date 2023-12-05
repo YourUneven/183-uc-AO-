@@ -2,13 +2,17 @@
 .img{
 	background: url(/HOME/img/11.jpg) fixed;
 	height: 800px ;
-	width: 100%;
+	/* width: 100%;	border: 10px solid rgb(0, 255, 64); */
+
 
 }
 .img2{
 	background:url(/HOME/img/pngwing.com.png) top no-repeat;
-	height: 1500px;
+	height: 140px;
 	width: 100%;
+	position: relative;
+	top: -80px;
+	/* border: 10px solid rgb(255, 145, 0);1 */
 
 }
 nav{
@@ -19,19 +23,11 @@ nav{
 
 
 
+header , nav {	
+	/* border: 10px solid rgb(3, 3, 14); */
 
-
-
-
-
-
-
-
-
-
-
-header , nav {
-	height: 500px;
+	height: 800px;
+	width: 100%;
 }
 a {
 	text-decoration: none;
@@ -53,9 +49,10 @@ h3{padding: 0 auto;
 	color: rgba(101, 101, 152, 0.504);
 }
 .footer__box {
-	position: absolute;
-	bottom: -100%;
-	padding: 0 400px;
+	/* border: 10px solid #00f; */
+	width: 100%;
+	position:absolute;
+	bottom: -100%;	
 	display: flex;
 background-color: rgb(4, 138, 193);
 	justify-content: space-between;
